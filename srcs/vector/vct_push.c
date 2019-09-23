@@ -6,7 +6,7 @@
 /*   By: alagroy- <alagroy-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/18 15:09:58 by alagroy-          #+#    #+#             */
-/*   Updated: 2019/09/18 17:58:25 by alagroy-         ###   ########.fr       */
+/*   Updated: 2019/09/19 18:12:23 by alagroy-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ int		vct_npush(t_vector *vct, char c, unsigned int n)
 	return (EXIT_SUCCESS);
 }
 
-int		vct_strpush(t_vector *vct, char	*str)
+int		vct_strpush(t_vector *vct, char *str)
 {
 	size_t		strlen;
 	t_vector	*dup;

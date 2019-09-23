@@ -6,7 +6,7 @@
 #    By: alagroy- <alagroy-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/17 17:52:36 by alagroy-          #+#    #+#              #
-#    Updated: 2019/09/19 17:58:05 by alagroy-         ###   ########.fr        #
+#    Updated: 2019/09/23 16:15:56 by alagroy-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,7 @@ SRCS = ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c \
 	   vct_create.c vct_destroy.c vct_strdup.c vct_print.c vct_cat.c vct_realloc.c \
 	   vct_vctdup.c vct_insertstr.c vct_strcpy.c vct_sub.c vct_delpart.c \
 	   vct_replace.c vct_strstr.c vct_cmp.c vct_gnl.c vct_append.c vct_chr.c \
-	   vct_split.c vct_rev.c vct_push.c vct_apply.c
+	   vct_split.c vct_rev.c vct_push.c vct_apply.c vct_gnc.c
 
 OBJ = $(patsubst %.c, $(OBJ_PATH)%.o, $(SRCS))
 

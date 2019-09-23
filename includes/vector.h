@@ -6,7 +6,7 @@
 /*   By: alagroy- <alagroy-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/17 18:28:53 by alagroy-          #+#    #+#             */
-/*   Updated: 2019/09/19 17:54:45 by alagroy-         ###   ########.fr       */
+/*   Updated: 2019/09/23 17:28:54 by alagroy-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ int					vct_delpart(t_vector *vct, unsigned int i,
 void				vct_destroy(t_vector **vct);
 void				vct_dprint(t_vector *vct, int fd);
 void				vct_dprintendl(t_vector *vct, int fd);
+char				vct_gnc(t_vector *vct);
 int					vct_gnl(int fd, t_vector **vct);
 int					vct_insertstr(t_vector *vct, char *str, int index);
 int					vct_nappend(t_vector *vct, char c, int n);
