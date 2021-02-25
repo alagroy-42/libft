@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alagroy- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: alagroy- <alagroy-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 14:14:32 by alagroy-          #+#    #+#             */
-/*   Updated: 2019/09/09 14:40:45 by alagroy-         ###   ########.fr       */
+/*   Updated: 2021/02/25 12:34:35 by alagroy-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,11 @@
 # include <unistd.h>
 # include <limits.h>
 # include "ft_printf.h"
+
+# ifndef OPEN_MAX
+#  define OPEN_MAX 4096
+# endif
+
 # define BUFF_SIZE 1
 
 typedef struct	s_list
@@ -94,7 +99,7 @@ size_t			ft_lstsize(t_list *begin);
 void			ft_lstend(t_list **alst, t_list *new);
 void			ft_lstmid(t_list *alst, t_list *new, size_t index);
 int				get_next_line(const int fd, char **line);
-void			ft_free_2dstr(char **array);
+void			ft_2dstrdel(char ***array);
 void			ft_print_2da(char **array);
 void			ft_str2ddel(char **tab, int index);
 char			*ft_strreplace(char *str, char find, char replace);
