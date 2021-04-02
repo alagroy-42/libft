@@ -6,7 +6,7 @@
 #    By: alagroy- <alagroy-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/17 17:52:36 by alagroy-          #+#    #+#              #
-#    Updated: 2021/02/26 12:29:30 by alagroy-         ###   ########.fr        #
+#    Updated: 2021/04/02 13:06:50 by alagroy-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ SRCS = ft_strcat.c ft_strchr.c ft_strcmp.c ft_strcpy.c ft_strdup.c \
 	   ft_striteri.c ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c \
 	   ft_strsub.c ft_strstrjoin.c ft_strjoin.c ft_strtrim.c ft_strsplit.c \
 	   ft_itoa.c ft_putchar.c ft_putstr.c ft_putendl.c ft_putnbr.c ft_putchar_fd.c \
-	   ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_memset.c ft_bzero.c \
+	   ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_putull.c ft_memset.c ft_bzero.c \
 	   ft_memcpy.c ft_memccpy.c ft_memmove.c ft_memchr.c ft_memcmp.c \
 	   ft_memalloc.c ft_memdel.c ft_lstnew.c ft_lstdelone.c ft_lstdel.c \
 	   ft_lstadd.c ft_lstiter.c ft_lstmap.c ft_lstsort.c ft_strrev.c ft_strlowcase.c \

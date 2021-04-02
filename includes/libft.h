@@ -6,7 +6,7 @@
 /*   By: alagroy- <alagroy-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 14:14:32 by alagroy-          #+#    #+#             */
-/*   Updated: 2021/02/26 12:26:04 by alagroy-         ###   ########.fr       */
+/*   Updated: 2021/04/02 13:06:28 by alagroy-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,6 +81,7 @@ void			ft_putchar(char c);
 void			ft_putstr(const char *s);
 void			ft_putendl(const char *s);
 void			ft_putnbr(int n);
+void			ft_putull(unsigned long long n);
 void			ft_putchar_fd(char c, int fd);
 void			ft_putstr_fd(const char *s, int fd);
 void			ft_putendl_fd(const char *d, int fd);
